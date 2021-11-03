@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
-    <title>Silvia Trejo</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8" />
     <link rel="stylesheet" href="css/stylesheet.css">
+    <title>Silvia Trejo</title>
 </head>
 
 <body>
@@ -12,53 +12,84 @@
         <h1>Silvia Trejo</h1>
         <nav>
             <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact-me">Contact Me</a></li>
-                <li><a href="#resume">Resume</a></li> <!--don't forget to add the id's to the classes to link them to the navigation bar-->
+                <li><a href="#About-Me">About Me</a></li>
+                <li><a href="#Work">Work</a></li>
+                <li><a href="#Contact-Me">Contact Me</a></li>
+                <li><a href="#Resume">Resume</a></li>
             </ul>
         </nav>
     </header>
 
-    <figure class="backgroundImage"></figure><!--find the background image for the navigation bar-->
-    <figcaption>“Be brave enough to be bad at something new.”</figcaption><!--either make it into a section or style it with the css file-->
+<section class="background">
+    <h3>“Be brave enough to be bad at something new.”</h3>
+    <figure class="Mountains"></figure>
+</section>
+
+<main>
+    <section>
+        <article class="About-Me" alt="About-Me" id="About-Me">
+            <h1>About Me</h1>
+            <p>Hello!</p>
+            <p>Good-Bye!</p>
+        </article>
+    </section>
+
+    <section class= "Work" alt="Work" id="Work">
+        <h1>Work</h1>
+
+        <article class="Surf-Report" alt="Surf-Report" id="Surf-Report">
+            <img src="images/Surf-Report.jpeg"  alt= "Surf-Report"/>
+            <h2>Surf Report</h2>
+            <h3>MERN Stack</h3>
+        </article>
+
+        <article class="LED-Wall" alt="LED-Wall" id="LED-Wall">
+            <img src="images/LES-Wall.jpeg"  alt= "LED-Wall"/>
+            <h2>LED Wall </h2>
+            <h3>Node/IoT</h3>
+        </article>
+
+        <article class="Calculator" alt="Calculator" id="Calculator">
+            <img src="images/Calculator.jpeg"  alt= "Calculator"/>
+            <h2>Calculator</h2>
+            <h3>React/JavaScript/CSS</h3>
+        </article>
+
+        <article class="Pastel-Puzzels" alt="Pastel-Puzzels" id="Pastel-Puzzels">
+            <img src="images/Puzzle.jpeg"  alt= "Pastel-Puzzels"/>
+            <h2>Pastel Puzzles</h2>
+            <h3>MERN Stack</h3>
+        </article>
+
+        <article class="Run-Buddy" alt="Run-Buddy" id="Run-Buddy">
+            <img src="images/Run-Buddy.jpeg"  alt= "Run-Buddy"/>
+            <h2>Run Buddy</h2>
+            <h3>HTML/CSS</h3>
+        </article>
+
+    </section>
+
+</main>
   
-    <main>
-            <article class="About me">
-                <h1>About Me</h1>
-                <p>Hello!</p>
-            </article>
-            <article class="Work">
-                <h1>Work</h1>
-                <section>
-                    <button type="Surf Report">Surf Report</button>
-                </section>
-
-                <section>
-                    <button type="LED-Wall">LED Wall</button>
-                </section>
-
-                <section>
-                    <button type="Calculator">Calculator</button>
-                </section>
-
-                <section>
-                    <button type="Pastel-Puzzels">Pastel Puzzels</button>
-                </section>
-
-                <section>
-                    <button type="Run-Buddy">Run Buddy</button>
-                </section>
-
-            </article>
-    </main>
-        
+    
+    <footer class="Contact-Me" alt="Contact-Me" id="Contact-Me">
+        <h1>Contact Me</h1>
+       <table>
+           <tr>
+                <th>Phone Number</th>
+                <th>E-mail</th>
+                <th>GitHub</th>
+                <th>LinkedIn</th>
+           </tr>
+           <tr>
+               <td>404.429.7357</td>
+               <td>s.y.trejo26@gmail.com</td>
+               <td>sytrejo</td>
+               <td><a href="https://www.linkedin.com/in/silvia-trejo/">Click Here!</a></td>
+           </tr>
+       </table>
+    </footer>
+    
 </body>
 
-    <footer>
-    <h1>Contact Me </h1>
-
-
-
-    </footer>
 </html>

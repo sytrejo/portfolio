@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+body{
+    background: color #6d7696;
+    min-height: 100vh;
+}
+
+header{
+    background-color:#455C4F;
+    min-height: 100px;
+}
+
+header h1{
+    display: inline;
+    font-size:40px;
+    color: azure;
+    font-family: cursive;
+}
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif ;
+    float: right;
+}
+
+nav a{
+    color: azure;
+}
+
+.background h3{
+    display: block;
+    font-size: 30px;
+    color: azure;
+    font-family: cursive;
+    padding-top: 100px;
+    float: right;
+}
+
+.Mountains{
+    min-height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("/Users/silviatrejo/Desktop/Bootcamp/Homework/portfolio/Assets/images/Mountains.jpeg");
+}
+
+main h1{
+    width: 20%;
+    float: left;
+    color:#455C4F;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* pallet colors I want to use  #6D7696, #59484F, #455C4F, #CC5543, #EDB579, #DBE6AF
