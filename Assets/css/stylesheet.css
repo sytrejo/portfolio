@@ -2,16 +2,51 @@
     box-sizing: border-box;
     padding: 0;
     margin:0;
+
 }
 
 body{
-    background: color #6d7696;
+    /*background-color: #6d7696;*/
     min-height: 100vh;
+    background-color:#f0f9f0;
 }
 
 header{
     background-color:#455C4F;
     min-height: 100px;
+}
+
+
+aside{
+    width: 20%;
+    float: left;
+    color:#455C4F;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+}
+
+.PersonalInfo{
+    border-right: solid seagreen;
+    min-height: 200px;
+    margin-bottom: 50px;
+}
+
+.About-Me{
+    min-height: 200px;
+    margin-bottom: 50px;
+}
+
+.Samples{
+    border-right: solid seagreen;
+    min-height: 800px;
+    margin-bottom: 50px;
+}
+
+.Messages{
+    border-right:solid seagreen ;
+    min-height: 150px;
+    margin-bottom: 50px;
 }
 
 header h1{
@@ -20,8 +55,9 @@ header h1{
     color: azure;
     font-family: cursive;
 }
+
 nav ul{
-    list-style-type: none;
+    list-style: inherit;
 }
 
 nav ul li{
@@ -36,7 +72,7 @@ nav a{
     color: azure;
 }
 
-.background h3{
+.background h2{
     display: block;
     font-size: 30px;
     color: azure;
@@ -54,11 +90,154 @@ nav a{
     background-image: url("/Users/silviatrejo/Desktop/Bootcamp/Homework/portfolio/Assets/images/Mountains.jpeg");
 }
 
-main h1{
-    width: 20%;
-    float: left;
-    color:#455C4F;
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
+.Work{
+    width: 75%;
+    float:right;
+
 }
-/* pallet colors I want to use  #6D7696, #59484F, #455C4F, #CC5543, #EDB579, #DBE6AF
+
+
+.Surfing{
+    min-height: 250px;
+    width: 100%;
+    margin-bottom: 0px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("/Users/silviatrejo/Desktop/Bootcamp/Homework/portfolio/Assets/images/Surf-Report.jpeg");
+}
+
+.Surf-Report h2{
+    display:inline-flexbox;
+    font-size: 25px;
+    color:black;
+    font-family: cursive;
+}
+
+.Surf-Report h3{
+    display:inline-flexbox;
+    font-size: 20px;
+    color: black;
+    font-family:cursive;
+}
+
+.Wall{
+    min-height: 100px;
+    max-width: 35%;
+    display: inline-flexbox;
+    background-size: cover;
+    background-position:var(inline-flexbox);
+    background-image: url("/Users/silviatrejo/Desktop/Bootcamp/Homework/portfolio/Assets/images/LES-Wall.jpeg");
+}
+
+.Wall h2{
+    display:inline-flexbox;
+    font-size: 25px;
+    color:black;
+    font-family: cursive;
+}
+
+.Wall h3{
+    display:inline-flexbox;
+    font-size: 20px;
+    color: black;
+    font-family:cursive;
+}
+
+.Math{
+    min-height: 100px;
+    max-width: 35%;
+    display:inline-flexbox;
+    background-size: cover;
+    background-position: var(inline-flexbox); 
+    background-image: url("/Users/silviatrejo/Desktop/Bootcamp/Homework/portfolio/Assets/images/Calculator.jpeg"); 
+}
+
+.Math h2{
+    display:inline-flexbox;
+    font-size: 25px;
+    color:black;
+    font-family: cursive;
+}
+
+.Math h3{
+    display:inline-flexbox;
+    font-size: 20px;
+    color: black;
+    font-family:cursive;
+}
+
+.Puzzle{
+    min-height: 100px;
+    max-width: 35%;
+    display: inline-flexbox;
+    background-size: cover;
+    background-position: var(inline-flexbox); 
+    background-image: url("/Users/silviatrejo/Desktop/Bootcamp/Homework/portfolio/Assets/images/Puzzle.jpeg"); 
+}
+
+.Puzzle h2{
+    display:inline-flexbox;
+    font-size: 25px;
+    color:black;
+    font-family: cursive;
+}
+
+.Puzzle h3{
+    display:inline-flexbox;
+    font-size: 20px;
+    color: black;
+    font-family:cursive;
+}
+
+.Buddy{
+    min-height: 100px;
+    max-width: 35%;
+    display: inline-flexbox;
+    background-size: cover;
+    background-position: var(inline-flexbox); 
+    background-image: url("/Users/silviatrejo/Desktop/Bootcamp/Homework/portfolio/Assets/images/Run-Buddy.jpeg");
+}
+
+.Buddy h2{
+    display:inline-flexbox;
+    font-size: 25px;
+    color:black;
+    font-family: cursive;
+}
+
+.Buddy h3{
+    display:inline-flexbox;
+    font-size: 20px;
+    color: black;
+    font-family:cursive;
+}
+td{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+    color: black;
+    text-decoration: underline 5px;
+    text-decoration-color:#183e18;
+}
+
+/*td a:link{
+    color:black;
+    background-color:transparent;
+    text-decoration: underline 5px;
+    text-decoration-color: #183e18;
+}*/
+/*.container img{
+    width:35%;
+    display:inline-block;
+
+}
+
+.container h2{
+    display: block;
+    font-size: 25px;
+    color: black;
+    font-family: cursive;
+    padding-top: 150px;
+    padding-right:100px;
+    
+}
