@@ -45,8 +45,9 @@ aside{
 
 .Messages{
     border-right:solid seagreen ;
-    min-height: 150px;
-    margin-bottom: 50px;
+    min-height: 100px;
+    margin-bottom: 30px;
+    padding-top: 30px;
 }
 
 header h1{
@@ -57,7 +58,7 @@ header h1{
 }
 
 nav ul{
-    list-style: inherit;
+    list-style: none;
 }
 
 nav ul li{
@@ -90,7 +91,7 @@ nav a{
     background-image: url("/Users/silviatrejo/Desktop/Bootcamp/Homework/portfolio/Assets/images/Mountains.jpeg");
 }
 
-.Work{
+main{
     width: 75%;
     float:right;
 
@@ -107,7 +108,7 @@ nav a{
 }
 
 .Surf-Report h2{
-    display:inline-flexbox;
+    display:block;
     font-size: 25px;
     color:black;
     font-family: cursive;
@@ -121,22 +122,21 @@ nav a{
 }
 
 .Wall{
-    min-height: 100px;
-    max-width: 35%;
+    min-height: 150px;
     display: inline-flexbox;
     background-size: cover;
     background-position:var(inline-flexbox);
     background-image: url("/Users/silviatrejo/Desktop/Bootcamp/Homework/portfolio/Assets/images/LES-Wall.jpeg");
 }
 
-.Wall h2{
+.LED-Wall h2{
     display:inline-flexbox;
     font-size: 25px;
     color:black;
     font-family: cursive;
 }
 
-.Wall h3{
+.LED-Wall h3{
     display:inline-flexbox;
     font-size: 20px;
     color: black;
@@ -144,22 +144,21 @@ nav a{
 }
 
 .Math{
-    min-height: 100px;
-    max-width: 35%;
+    min-height: 150px;
     display:inline-flexbox;
     background-size: cover;
     background-position: var(inline-flexbox); 
     background-image: url("/Users/silviatrejo/Desktop/Bootcamp/Homework/portfolio/Assets/images/Calculator.jpeg"); 
 }
 
-.Math h2{
+.Calculator h2{
     display:inline-flexbox;
     font-size: 25px;
     color:black;
     font-family: cursive;
 }
 
-.Math h3{
+.Calculator h3{
     display:inline-flexbox;
     font-size: 20px;
     color: black;
@@ -167,22 +166,21 @@ nav a{
 }
 
 .Puzzle{
-    min-height: 100px;
-    max-width: 35%;
+    min-height: 150px;
     display: inline-flexbox;
     background-size: cover;
     background-position: var(inline-flexbox); 
     background-image: url("/Users/silviatrejo/Desktop/Bootcamp/Homework/portfolio/Assets/images/Puzzle.jpeg"); 
 }
 
-.Puzzle h2{
+.Pastel-Puzzles h2{
     display:inline-flexbox;
     font-size: 25px;
     color:black;
     font-family: cursive;
 }
 
-.Puzzle h3{
+.Pastel-Puzzles h3{
     display:inline-flexbox;
     font-size: 20px;
     color: black;
@@ -190,42 +188,52 @@ nav a{
 }
 
 .Buddy{
-    min-height: 100px;
-    max-width: 35%;
+    min-height: 150px;
     display: inline-flexbox;
     background-size: cover;
     background-position: var(inline-flexbox); 
     background-image: url("/Users/silviatrejo/Desktop/Bootcamp/Homework/portfolio/Assets/images/Run-Buddy.jpeg");
 }
 
-.Buddy h2{
+.Run-Buddy h2{
     display:inline-flexbox;
     font-size: 25px;
     color:black;
     font-family: cursive;
 }
 
-.Buddy h3{
+.Run-Buddy h3{
     display:inline-flexbox;
     font-size: 20px;
     color: black;
     font-family:cursive;
 }
+
+table{
+    padding-top: 30px;
+}
+
 td{
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
     text-align: left;
     color: black;
+    font-size: 20px;
     text-decoration: underline 5px;
     text-decoration-color:#183e18;
 }
 
-/*td a:link{
+
+
+td a:link, a:hover, a:active{
     color:black;
     background-color:transparent;
     text-decoration: underline 5px;
     text-decoration-color: #183e18;
-}*/
+}
+
+
 /*.container img{
     width:35%;
     display:inline-block;
