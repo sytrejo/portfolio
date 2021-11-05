@@ -88,7 +88,7 @@ nav a{
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
-    background-image: url("/Users/silviatrejo/Desktop/Bootcamp/Homework/portfolio/Assets/images/Mountains.jpeg");
+    background-image: url("https://raw.githubusercontent.com/sytrejo/portfolio/main/Assets/images/Mountains.jpeg");
 }
 
 main{
@@ -104,7 +104,7 @@ main{
     margin-bottom: 0px;
     background-size: cover;
     background-position: center;
-    background-image: url("/Users/silviatrejo/Desktop/Bootcamp/Homework/portfolio/Assets/images/Refactoring.jpeg");
+    background-image: url("https://raw.githubusercontent.com/sytrejo/portfolio/main/Assets/images/Refactoring.jpeg");
 }
 
 .Code-Refactor h2{
