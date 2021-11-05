@@ -88,7 +88,7 @@ nav a{
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
-    background-image: url("https://raw.githubusercontent.com/sytrejo/portfolio/main/Assets/images/Mountains.jpeg");
+    background-image: url("../images/Mountains.jpg");
 }
 
 main{
@@ -104,7 +104,7 @@ main{
     margin-bottom: 0px;
     background-size: cover;
     background-position: center;
-    background-image: url("https://raw.githubusercontent.com/sytrejo/portfolio/main/Assets/images/Refactoring.jpeg");
+    background-image: url("../images/Refactoring.jpg");
 }
 
 .Code-Refactor h2{
@@ -134,7 +134,7 @@ main{
     background-size: cover;
     background-position: center;
     background-position:var(inline-flexbox);
-    background-image: url("/Users/silviatrejo/Desktop/Bootcamp/Homework/portfolio/Assets/images/LES-Wall.jpeg");
+    background-image: url("../images/LES-Wall.jpg");
 }
 
 .LED-Wall h2{
@@ -162,7 +162,7 @@ main{
     background-size: cover;
     background-position: center;
     background-position: var(inline-flexbox); 
-    background-image: url("/Users/silviatrejo/Desktop/Bootcamp/Homework/portfolio/Assets/images/Calculator.jpeg"); 
+    background-image: url("../images/Calculator.jpg"); 
 }
 
 .Calculator h2{
@@ -190,7 +190,7 @@ main{
     background-size: cover;
     background-position: center;
     background-position: var(inline-flexbox); 
-    background-image: url("/Users/silviatrejo/Desktop/Bootcamp/Homework/portfolio/Assets/images/Puzzle.jpeg"); 
+    background-image: url("../images/Puzzle.jpg"); 
 }
 
 .Pastel-Puzzles h2{
@@ -220,7 +220,7 @@ main{
     background-size: cover;
     background-position: center;
     background-position: var(inline-flexbox); 
-    background-image: url("/Users/silviatrejo/Desktop/Bootcamp/Homework/portfolio/Assets/images/Run-Buddy.jpeg");
+    background-image: url("../images/Run-Buddy.jpg");
 }
 
 .Run-Buddy h2{
