@@ -5,19 +5,8 @@
 
 }
 
-body{
-    min-height: 100vh;
-    background-color:#f0f9f0;
-}
-
-header{
-    background-color:#455C4F;
-    min-height: 100px;
-}
-
-
 aside{
-    width: 20vw;
+    width: 20vw flex;
     float: left;
     color:#455C4F;
     font-size: 30px;
@@ -25,14 +14,25 @@ aside{
     padding-left: 10px;
 }
 
+body{
+    min-height: 100vh flex;
+    background-color:#f0f9f0;
+}
+
+header{
+    background-color:#455C4F;
+    min-height: 100px flex;
+}
+
+
 .PersonalInfo{
     border-right: solid seagreen;
-    min-height: 250px;
+    min-height: fit-content;
     margin-bottom: 30px;
 }
 
 .About-Me{
-    min-height: 300px;
+    min-height: fit-content;
     margin-bottom: 30px;
 }
 
@@ -92,8 +92,8 @@ nav a{
     background-image: url("../images/Mountains.jpg");
 }
 
-.Work{
-    width: 75%;
+main{
+    width: 75vw;
     float:right;
 
 }
@@ -103,7 +103,7 @@ nav a{
 }
 
 .Refactoring{
-    min-height: 300px;
+    min-height: 300px flex;
     width: 100%;
     margin-bottom: 0px;
     background-size: cover;
